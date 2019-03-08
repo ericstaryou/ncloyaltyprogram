@@ -3,6 +3,20 @@ layout: default
 ---
 
 <body>
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAea4eoiIUzO_woqFC7h3GHBPtSoXOrt7Q",
+        authDomain: "nc-loyalty-program.firebaseapp.com",
+        databaseURL: "https://nc-loyalty-program.firebaseio.com",
+        projectId: "nc-loyalty-program",
+        storageBucket: "nc-loyalty-program.appspot.com",
+        messagingSenderId: "475718492590"
+    };
+    firebase.initializeApp(config);
+</script>
+
 <div>
     <table>
         <tr>
@@ -11,7 +25,7 @@ layout: default
         </tr>
         <tr>
             <td>
-                <div class="btn_ext">10 Point</div>
+                <div class="btn_ext" onclick="pushFBase();">10 Point</div>
             </td>
             <td>
                 <ol>

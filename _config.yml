@@ -2,6 +2,6 @@ theme: jekyll-theme-cayman
 title: NC Loyalty Program
 description: This is a loyalty managing site
 show_downloads: false
-url:
-  createUser_url: https://www.thisisanfield.com/
-  checkIn_url: /test.html
+#url:
+#  createUser_url: https://www.thisisanfield.com/
+#  checkIn_url: /test.html

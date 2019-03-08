@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: NC Loyalty Program
 description: This is a loyalty managing site
+show_downloads: false

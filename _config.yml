@@ -4,4 +4,4 @@ description: This is a loyalty managing site
 show_downloads: false
 url:
   createUser_url: https://www.thisisanfield.com/
-  checkIn_url: test.html
+  checkIn_url: /test.html

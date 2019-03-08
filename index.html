@@ -96,5 +96,13 @@ layout: default
 
 <script>
     document.getElementById("test").addEventListener("click", pushFBase);
+
+    function pushFBase(){
+        var firebaseRef = firebase.database().ref();
+
+        firebaseRef.push().set({
+            points: 10
+        });
+    }
 </script>
 </body>

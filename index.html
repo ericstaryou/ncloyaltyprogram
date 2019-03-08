@@ -15,6 +15,18 @@ layout: default
         messagingSenderId: "475718492590"
     };
     firebase.initializeApp(config);
+
+    const setButton = document.querySelector("#test");
+
+    setButton.addEventListener("click", function () {
+        var firebaseRef = firebase.database().ref();
+
+        firebaseRef.push().set({
+            points: 10
+        });
+
+        alert('hi');
+    });
 </script>
 
 <div>
